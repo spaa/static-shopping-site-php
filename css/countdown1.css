@@ -1,0 +1,74 @@
+div.container2{
+    position: absolute;
+    top: 820px;
+}
+
+div.container3{
+    position: absolute;
+    top: 1180px;
+}
+div.countdown,div.countdown2,div.countdown3{
+    position: absolute;
+    width: 260px;
+    height: 341px;
+    left: -250px;
+}
+
+
+span.glyphicon.glyphicon-time{
+    color: blue;
+    animation: shake 0.3s linear infinite;
+}
+
+@keyframes shake{
+    0%{}
+    25%{
+        transform: translateX(1px)rotate(100deg);
+    }
+    50%,100%{
+        transform: translateX(0px)rotate(230deg);
+    }
+    75%{
+        transform: translateX(-1px)rotate(360deg);
+    }
+
+}
+
+.countdown ,.countdown2,.countdown3{
+    position: relative;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.countdown img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.topLeft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomLeft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}

@@ -1,0 +1,144 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f1f3f6;
+}
+body.entire-body{
+	background-color: #f1f3f6;
+
+}
+/*navigation bar 1*/
+nav.nav1{
+	display: block;
+	background-color: #DC143C;
+	height: 30px;
+	color: white;
+	padding-left: 10px;
+	padding-right: 30px;
+	font-family: arial;
+	z-index: 3;
+}
+.nav1 .left{
+	line-height: 30px;
+}
+.nav1 .right{
+	position: relative;
+	top: -33px;
+	height: 30px;
+	list-style-type: none;
+	float: right;
+}
+.nav1 .right li{
+	height: 30px;
+	padding: 8px 10px;
+	float: left;
+	background-color: #DC143C;
+    border-radius: 15px;
+}
+
+.nav1 .right li a{
+	color: white;
+	text-decoration: none;
+}
+.nav1 .right li a:hover,.nav1 .left:hover{
+	color: yellow;
+}
+
+/*navigation bar 2*/
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+
+nav.navbar.nav2{
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border: 0px;
+	z-index: 2;
+	height: 70px;
+	background-color: #e40046;
+}
+
+a.navbar-brand img{
+	position: relative;
+	
+	width: 130px;
+	height: 50px;
+	margin: 0px 0px 0px 30px;
+}
+i.glyphicon{
+	color: white;
+}
+button.btn.searchbtn{
+	background-color: #333;
+    color: #333;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+button.btn:hover{
+	background-color: #11c29b;
+}
+button.btn:hover i.glyphicon{
+    color: yellow;
+}
+
+div.navbar-right.cart{
+	position: absolute;
+	right: 50px;
+	top: 15px;
+}
+div.navbar-right.cart ul li a{
+	color: white;
+	font-size: 15px;
+}
+div.navbar-right.cart ul li a:hover{
+	color: #ffe11b;
+	text-decoration: none;
+}
+div.navbar-right.cart ul li a:hover span.glyphicon-shopping-cart{
+	color: white;
+}
+
+i.glyphicon-phone{
+	font-size: 17px;
+}
+span.glyphicon-shopping-cart{
+	font-size: 20px;
+}
+
+span.badge{
+	background-color: #212121;
+	width: 25px;
+}
+
+div.navbar-right. a:hover{
+	color: #ff0200;
+    background-color: #9df90b;
+    border-top-left-radius: 11px;
+}
+/*navbar 3*/
+
+@media screen and (max-width: 850px){
+	nav.nav1{
+		display: none;
+	}	
+}
+
+@media screen and (max-width: 767px){
+	nav.navbar.nav2{
+		height: 50px;
+		background-color: #e40046;
+	}
+	
+	nav.navbar.nav3{
+		top: 70px;
+	}
+	form.navbar-form{
+		border: 0px;
+		padding: 0px;
+
+	}
+}

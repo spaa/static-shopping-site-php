@@ -1,0 +1,48 @@
+.footer{
+	z-index: -100;
+}
+.foot{
+	background-color: #222;
+	position: relative;
+	top: 100px;
+	width: 100%;
+	padding: 30px;
+	z-index: -1;
+}
+.foot .part ul{
+	list-style-type: none;
+}
+.foot .part ul li{
+	line-height: 30px;
+}
+.foot .part ul li strong{
+	font-size: 20px;
+	line-height: 50px;
+}
+.foot .part ul li strong:hover{
+	color: white;
+}
+.foot .part ul li a{
+	font-size: 13px;	
+}
+.foot .part ul li a:hover{
+	color: #dd4b39;	
+}
+.foot .part ul li span{
+	font-size: 20px;
+}
+.foot .part ul li #f:hover{
+	color: #3b5998;
+}
+.foot .part ul li #t:hover{
+	color: #00aced;
+}
+.foot .part ul li #i:hover{
+	color: #bc2a8d;
+}
+.foot .part ul li #l:hover{
+	color: #007bb6;
+}
+.foot .part ul li #y:hover{
+	color: #bb0000;
+}
