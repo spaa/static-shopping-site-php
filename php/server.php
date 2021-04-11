@@ -10,7 +10,7 @@
    $db_route = $_ENV['DB_ROUTE'];
    //connect to database
 
-   $db = mysqli_connect($db_route, $db_user , '', $db_name);
+   $db = mysqli_connect($db_route, $db_user , $db_pass, $db_name);
    //$db = mysqli_connect('localhost', 'root' , '', 'shopping');
    
    if(!$db){
